@@ -2,7 +2,7 @@
   {
     "name": "LaMovie",
     "internalName": "LaMovie",
-    "url": "https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/plugin.js",
+    "url": "https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/LaMovie.sky",
     "icon": "https://la.movie/wp-content/uploads/2025/05/cropped-La.movie_-512x512.png",
     "version": 1,
     "description": "Películas, Series y Animes en HD Gratis from La.Movie",
