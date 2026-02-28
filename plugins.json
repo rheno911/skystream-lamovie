@@ -1,13 +1,1 @@
-[
-  {
-    "name": "LaMovie",
-    "internalName": "LaMovie", 
-    "url": "https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/LaMovie.sky",
-    "icon": "https://via.placeholder.com/128/FF6B35/FFFFFF?text=LM",
-    "version": 4,
-    "description": "LaMovie HD Streams",
-    "authors": ["rheno911"],
-    "language": "es",
-    "types": ["Movies"]
-  }
-]
+[{"name":"LaMovie","internalName":"LaMovie","url":"https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/LaMovie.sky","icon":"https://via.placeholder.com/128?text=LM","version":5,"description":"Working LaMovie","authors":["rheno911"],"language":"es","types":["Movies"]}]
