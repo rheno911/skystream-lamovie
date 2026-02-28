@@ -4,6 +4,6 @@
   "description": "LaMovie and other streaming providers",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.github.com/rheno911/skystream-lamovie/blame/main/LaMovie.sky"
+    "https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/plugins.json"
   ]
 }
