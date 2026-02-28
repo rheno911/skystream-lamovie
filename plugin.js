@@ -1,4 +1,4 @@
-function getManifest(){return{name:"LaMovie",id:"com.rheno911.lamovie",version:1,baseUrl:"https://la.movie"};}
+function getManifest(){return{name:"LaMovie",id:"com.rheno911.lamovie.debug",version:1,baseUrl:"https://la.movie"};}
 function getHome(callback){callback({type:"success",value:'{"Test":[{"title":"Working!","url":"61323","posterUrl":""}]'});}
 function search(query,callback){callback({type:"success",value:'[{"title":"'+query+'","url":"61323","posterUrl":""}]'});}
 function load(id,callback){callback({type:"success",value:'{"url":"'+id+'","data":"'+id+'","title":"Movie"}'});}
