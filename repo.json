@@ -1,9 +1,1 @@
-{
-  "name": "Rheno911 SkyStream Repo",
-  "id": "com.rheno911.repo",
-  "description": "LaMovie and other streaming providers",
-  "manifestVersion": 1,
-  "pluginLists": [
-    "https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/plugins.json"
-  ]
-}
+{"name":"Rheno Repo","id":"com.rheno911.repo","description":"Test repo","manifestVersion":1,"pluginLists":["https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/plugins.json"]}
