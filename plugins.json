@@ -1,1 +1,13 @@
-[{"name":"LaMovie DEBUG","internalName":"LaMovie","url":"https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/LaMovie.sky","version":7,"icon":"https://via.placeholder.com/128?text=DBG","description":"DEBUG MODE","authors":["rheno911"]}]
+[
+  {
+    "name": "LaMovie",
+    "internalName": "lamovie",
+    "url": "https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/LaMovie.sky",
+    "icon": "https://la.movie/wp-content/uploads/2025/05/cropped-La.movie_-512x512.png",
+    "version": 9,
+    "description": "Películas, Series y Animes Online en HD Gratis",
+    "authors": ["rheno911"],
+    "language": "es",
+    "types": ["Movies", "TV", "Anime"]
+  }
+]
