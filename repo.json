@@ -1,7 +1,7 @@
 {
   "name": "Rheno Repo",
   "id": "com.rheno911.repo",
-  "description": "LaMovie SkyStream",
+  "description": "LaMovie SkyStream", 
   "manifestVersion": 1,
   "pluginLists": ["https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/plugins.json"]
 }
