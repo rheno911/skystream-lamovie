@@ -4,6 +4,6 @@
   "description": "LaMovie - Spanish movies/series from https://la.movie",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/plugins/plugins.json"
+    "https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/plugins.json"
   ]
 }
