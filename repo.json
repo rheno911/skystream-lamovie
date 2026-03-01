@@ -1,9 +1,12 @@
 {
-  "name": "Rheno LaMovie Repo", 
-  "id": "com.rheno911.lamovie-repo",
-  "description": "LaMovie - Películas HD Gratis",
-  "manifestVersion": 1,
-  "pluginLists": [
-    "https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/plugins.json"
+  "plugins": [
+    {
+      "name": "LaMovie",
+      "internalName": "LaMovie", 
+      "url": "https://raw.githubusercontent.com/rheno911/skystream-lamovie/main/LaMovie.sky",
+      "version": 1,
+      "icon": "https://via.placeholder.com/128x128/FF0000/FFFFFF?text=LM",
+      "description": "LaMovie - Spanish movies/series via Vimeo"
+    }
   ]
 }
