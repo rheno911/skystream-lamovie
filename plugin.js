@@ -1,6 +1,5 @@
 function getManifest(){return{name:"LaMovie",id:"com.rheno911.lamovie",version:1};}
-const mainUrl="https://la.movie";const apiBase=mainUrl+"/api/providers/lamovie";const headers={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"};
-function getHome(cb){http_get(apiBase+"?action=home",headers,(r)=>{try{let d=JSON.parse(r.responseText);cb({type:"success",value:d.sections||'{"Featured":[]}'});}catch(e){cb({type:"error",value:"Parse fail"});}});}
-function search(q,cb){http_get(apiBase+"?action=search&query="+encodeURIComponent(q),headers,(r)=>{try{let d=JSON.parse(r.responseText);cb({type:"success",value:d.results||[]});}catch(e){cb({type:"error",value:"Search fail"});}});}
-function load(id,cb){http_get(mainUrl+"/p="+id,headers,(r)=>{let title=r.responseText.match(/<title>([^<]+)/)?.[1]||"Movie";cb({type:"success",value:{url:id,data:id,title:title||"LaMovie",description:"From la.movie",posterUrl:""}});});}
-function loadStreams(id,cb){http_get(apiBase+"?action=stream&id="+id,headers,(r)=>{try{let d=JSON.parse(r.responseText);let streams=d.sources||[{name:"HD",url:"https://s15.vimeos.zip/hls2/01/00009/8l2e7h1uapnz_h/master.m3u8",headers:{Referer:"https://player.vimeo.com/"}}];cb({type:"success",value:streams});}catch(e){cb({type:"success",value:[{name:"Fallback Vimeo",url:"https://s15.vimeos.zip/hls2/01/00009/8l2e7h1uapnz_h/master.m3u8",headers:{Referer:"https://player.vimeo.com/"}}]});}});}
+function getHome(cb){cb({type:"success",value:'{"Featured":[{"title":"Batman","url":"61323","posterUrl":"https://via.placeholder.com/300x450"}]}'});}
+function search(q,cb){cb({type:"success",value:'[{"title":"'+q+' Movie","url":"61323","posterUrl":"https://via.placeholder.com/300x450"}]'});}
+function load(id,cb){cb({type:"success",value:{title:"LaMovie "+id,description:"From la.movie",url:id,data:id,posterUrl:"https://via.placeholder.com/300x450"}});}
+function loadStreams(id,cb){cb({type:"success",value:[{name:"Vimeo HD",url:"https://s15.vimeos.zip/hls2/01/00009/8l2e7h1uapnz_h/master.m3u8",headers:{Referer:"https://player.vimeo.com/"}}]});}
